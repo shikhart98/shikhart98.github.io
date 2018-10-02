@@ -56,6 +56,8 @@
  * # base style overrides
  *
  * ------------------------------------------------------------------- */
+ @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+ 
 html {
   font-size: 10px;
 }
@@ -1980,6 +1982,42 @@ html.no-csstransitions .home-content__main {
     -webkit-transform: translate3d(0, -150%, 0);
     -ms-transform: translate3d(0, -150%, 0);
     transform: translate3d(0, -150%, 0);
+  }
+}
+
+.line {
+  position: relative;
+  top: 50%;
+  width: 15em;
+  margin: 10 auto;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  font-size: 180%;
+  white-space: nowrap;
+  overflow: hidden;transform: translateY(-50%);
+}
+
+/*Animation*/
+
+.anim-typewriter {
+  animation: typewriter 1.5s steps(20) 2s 1 normal both,
+  blinkTextCursor 500ms steps(20) infinite normal;
+}
+
+@keyframes typewriter {
+  from {
+        width: 0;
+  }
+  to {
+        width: 9.6em;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+        border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+        border-right-color: transparent;
   }
 }
 
