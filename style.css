@@ -1,0 +1,72 @@
+body {
+    margin: 45;
+    font-family: "Roboto Slab";
+    background-color: #101010;
+    font-size: 25px;
+}
+
+.my-img {
+    max-width: 30%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 7px 7px 1px orange;
+}
+
+.title {
+    font-size: 80px;
+}
+
+.center {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+a:link {
+    color: orange;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: orange;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.border {
+    border: 10px solid #151515;
+    margin-top: 50px;
+}
+
+.logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    max-width: 50px;
+    height: auto;
+}
+
+.last_updated {
+    color: #666;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+.intro_line {
+    margin-top: 30px;
+}
