@@ -65,8 +65,37 @@ a:active {
     color: #666;
     font-weight: lighter;
     margin-bottom: 30px;
+    font-size: 15px;
 }
 
 .intro_line {
     margin-top: 30px;
+}
+
+.collapsible {
+    margin-top: 30px;
+    background-color: #131313;
+    color: orange;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 30px;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #181818;
+}
+
+.active, .collapsible:hover {
+    background-color: #151515;
+}
+
+button {
+    font-family: "Roboto Slab";
 }

@@ -1,5 +1,7 @@
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="script.js" defer></script>
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,10 +23,8 @@
             I am a software engineer with 3+ years of experience, currently working with <a target="_blank"
             href="https://famapp.in">Fam (formerly known as FamPay)</a>
         </span>
-        <p class="border">
-            <h3>
-                Technologies I have worked with
-            </h3>
+        <button type="button" class="collapsible">Technologies I have worked with</button>
+        <div class="content">
             <image title="GoLang" src="assets/images/go_logo.png" class="logo"></image>
             <image title="PHP" src="assets/images/php_logo.png" class="logo"></image>
             <image title="Java" src="assets/images/java_logo.png" class="logo"></image>
@@ -34,8 +34,9 @@
             <image title="Clickhouse Database" src="assets/images/clickhouse_logo.png" class="logo"></image>
             <image title="Redis Database" src="assets/images/redis_logo.svg" class="logo"></image>
             <image title="MySQL Database" src="assets/images/mysql_logo.svg" class="logo"></image>
-        </p>
-        <p class="border">
+        </div>
+        <button type="button" class="collapsible">Things I am working on right now</button>
+        <div class="content">
             <h3>
                 Things I am working on right now.
             </h3>
@@ -46,7 +47,7 @@
                     and risk engine service from scratch.
                     <ul>
                         <li>
-                            Tech used <br> 
+                            Tech used <br>
                             <a target="_blank" href="https://go.dev"><image title="GoLang" src="assets/images/go_logo.png" class="logo"></image></a>
                             <a target="_blank" href="https://www.postgresql.org"><image title="Postgres Database" src="assets/images/psql_logo.png" class="logo"></image></a>
                             <a target="_blank" href="https://clickhouse.com"><image title="Clickhouse Database" src="assets/images/clickhouse_logo.png" class="logo"></image></a>
@@ -61,11 +62,9 @@
                     Optimizing system to sustain increasing load with mere increase in system cost.
                 </li>
             </ul>
-        </p>
-        <p class="border">
-        <h3>
-            Other things I have previously worked in Fam
-        </h3>
+        </div>
+        <button type="button" class="collapsible">Other things I have previously worked in Fam</button>
+        <div class="content">
             <ul>
                 <li>
                     KYC Service
@@ -77,11 +76,9 @@
                     User Engagement - Rewards, Referrals, Raffles.
                 </li>
             </ul>
-        </p>
-        <p class="border">
-            <h3>
-                Previous Experience
-            </h3>
+        </div>
+        <button type="button" class="collapsible">Previous Experience</button>
+        <div class="content">
             <ul>
                 <a target="_blank" href="https://undostres.com.mx">UnDosTres</a> (2020-21)
                 <ul>
@@ -139,6 +136,6 @@
 
                 </ul>
             </ul>
-        </p>
+        </div>
     </body>
 </html>
