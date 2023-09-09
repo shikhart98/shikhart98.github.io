@@ -1,100 +1,107 @@
-<!DOCTYPE html>
-<html class="no-js" lang="en"> 
-<head>
+<html>
+    <head>
+        <style>
+            body {
+                margin: 45;
+                font-family: "Roboto Slab";
+                background-color: #101010;
+                font-size: 25px;
+            }
+            .my-img {
+                max-width: 30%;
+                height: auto;
+                border-radius: 50%;
+                box-shadow: 7px 7px 1px #222;
+            }
+            .title {
+                font-size: 80px;
+            }
+            .center {
+                margin: auto;
+                width: 80%;
+                padding: 10px;
+                text-align: center;
+                margin-bottom: 50px;
+            }
+            a:link {
+                color: orange;
+                background-color: transparent;
+                text-decoration: none;
+            }
 
-    <!--- basic page needs
-    ================================================== -->
-    <meta charset="utf-8">
-    <title>Shikhar Tyagi</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
+            a:visited {
+                color: orange;
+                background-color: transparent;
+                text-decoration: none;
+            }
 
-    <!-- mobile specific metas
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+            a:hover {
+                color: orange;
+                background-color: transparent;
+                font-weight: bold;
+            }
 
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
-
-    <!-- script
-    ================================================== -->
-    <script src="js/modernizr.js"></script>
-    <script src="js/pace.min.js"></script>
-
-
-</head>
-
-<body id="top">
-
-    <!-- home
-    ================================================== -->
-    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/bgbg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=top>
-
-        <div class="shadow-overlay"></div>
-        
-        <div class="home-content">
-            
-            <div class="zoom">
-                <img src="images/profilepic.png">
-            </div>  
-
-            <div class="row home-content__main">    
-                <h1>
-                Hello folks. I'm <br>
-                Shikhar Tyagi
-                </h1>
-
-                <p class = "line anim-typewriter">
-                a programmer <br>
-                </p>
-            </div> <!-- end home-content__main -->
-
-        </div> <!-- end home-content -->
-
-        <ul class="home-sidelinks">
-            <li><a href="https://drive.google.com/open?id=1wFItx5O8umEhP1smIlFMqtIx8PWQ5q9J" target="_blank">RESUME<span href="https://drive.google.com/open?id=1wFItx5O8umEhP1smIlFMqtIx8PWQ5q9J">download here</span></a></li>
-            <li><a  class="smoothscroll" href="#contact">Contact<span>get in touch</span></a></li> 
-        </ul> <!-- end home-sidelinks -->
-
-        <ul class="home-social">
-            <li class="home-social-title">Follow me</li>
-            <li><a href="https://www.facebook.com/rahkihs.igayt" target="_blank">
-                <i class="fab fa-facebook"></i>
-                <img src="images/fb.png" width="50">
-            </a></li>
-            <li><a href="https://twitter.com/syncfilm" target="_blank">
-                <i class="fab fa-twitter"></i>
-                <img src="images/twitter.png" width="40">
-            </a></li>
-            <li><a href="https://www.linkedin.com/in/shikhart98/" target="_blank">
-                <i class="fab fa-linkedin"></i>
-                <img src="images/linkedin.png" width="25" hspace="15" vspace="13">
-            </a></li>
-            <li><a href="https://github.com/shikhart98" target="_blank">
-                <i class="fab fa-linkedin"></i>
-                <img src="images/github.png" width="45">
-            </a></li>
-        </ul> <!-- end home-social -->
-
-    </section> <!-- end s-home -->
-
-    <!-- preloader
-    ================================================== -->
-    <div id="preloader">
-        <div id="loader">            
+            a:active {
+                color: white;
+                background-color: transparent;
+                text-decoration: none;
+            }
+        </style>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Roboto+Slab&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    </head>
+    
+    <body text="#ccc">
+        <div class="center">
+            <image class="my-img" src="assets/images/shikhar.jpg"></image>
+            <h1 class="title">Shikhar <span style="color: orange;">Tyagi</span></h1>
         </div>
-    </div>
 
-
-    <!-- Java Script
-    ================================================== -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-
-</body>
-
-</html> 
+        <p>
+        I am a software engineer with 3+ years of experience, currently working with <a target="_blank" href="https://famapp.in">Fam (formerly known as FamPay)</a>
+        </p>
+        <p>
+            <h3>
+                Things I am working on right now.
+            </h3>
+            <ul>
+                <li>
+                    Currently I am building <span style="color: orange;">FRM(Fraud and risk management system)</span>, architected, designed and implemented the Fraud
+                    and risk engine service from scratch.
+                    <ul>
+                        <li>v1 for the service has been deployed to production, this consists of Rule Engine, which is processing 1.2M+ transactions daily.</li>
+                        <li>Next we are working to develop the actions framework, which will act upon the decision made by rules engine to perform configured actions</li>
+                    </ul>
+                </li>
+                <li>
+                    Optimizing system to sustain increasing load with mere increase in system cost.
+                </li>
+            </ul>
+        </p>
+        <p>
+            <h3>
+                Other things I have previously worked in Fam
+            </h3>
+            <ul>
+                <li>
+                    KYC Service
+                </li>
+                <li>
+                    Payments
+                </li>
+                <li>
+                    User Engagement - Rewards, Referrals, Raffles.
+                </li>
+            </ul>
+        </p>
+        <p>
+            <h3>
+                Previous Experience
+            </h3>
+            <ul>
+                <a target="_blank" href="https://undostres.com.mx">UnDosTres</a> (2020-21)
+            </ul>
+        </p>
+    </body>
+</html>
