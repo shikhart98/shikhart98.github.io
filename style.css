@@ -6,9 +6,9 @@ body {
 }
 
 .my-img {
-    max-width: 30%;
+    max-width: 40%;
     height: auto;
-    border-radius: 50%;
+    border-radius: 20%;
     box-shadow: 7px 7px 1px orange;
 }
 
